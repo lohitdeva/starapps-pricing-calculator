@@ -1,4 +1,5 @@
 import ShopifyPricingCalculator from "./ShopifyPricingCalculator";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App() {
   return (
@@ -17,11 +18,10 @@ export default function App() {
           </div>
         </div>
       </header>
-
-      {/* Content */}
       <div className="max-w-6xl mx-auto px-4 py-8">
         <ShopifyPricingCalculator />
       </div>
+      <Analytics />;
     </main>
   );
 }
