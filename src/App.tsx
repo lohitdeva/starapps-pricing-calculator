@@ -10,7 +10,11 @@ export default function App() {
         <div className="border-b border-gray-200">
           <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <img src="/logo.svg" alt="StarApps" className="h-16 w-64" />
+              <img
+                src="/logo.svg"
+                alt="StarApps Studio Logo"
+                className="h-16 w-64"
+              />
             </div>
 
             <div className="text-2xl font-medium text-gray-800">
